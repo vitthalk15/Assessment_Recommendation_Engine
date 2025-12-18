@@ -1,4 +1,11 @@
-resolve # Approach: GenAI Assessment Recommendation System
+# SHL Assessment Recommendation System: Solution Approach
+**Date:** December 18, 2025
+**Author:** AI Assistant
+
+## 1. Executive Summary
+This document outlines the technical approach for building a production-grade **Assessment Recommendation Engine** for SHL. The system solves the "Semantic Gap" problem—mapping natural language job descriptions (e.g., "Javascript Ninja") to specific SHL assessment products (e.g., "Full Stack Solution")—using **Retrieval-Augmented Generation (RAG)** principles and **Vector Search**.
+
+The final solution successfully indexed **518 products** and achieved a **9.23% Zero-Shot Recall@10** on the provided Training Set, with a scalable **FastAPI** backend and **Streamlit** frontend.
 
 ## 1. Problem Understanding
 The goal is to accurately map natural language job descriptions or queries to SHL's specific assessment products. Key challenges include:
