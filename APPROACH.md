@@ -37,10 +37,9 @@ We optimize for **Recall@10** on the Train Set.
 - **Metric**: Proportion of relevant assessments (ground truth) appearing in the top 10 recommendations.
 - **Iteration**: We tuned the "Role Boosting" weights based on error analysis of the Train Set (e.g. correcting "Sales" queries missing "Motivation" tests).
 
-## 5. Performance Improvements
-- **Initial Baseline**: TF-IDF (Recall@10: ~45%). Missed synonym matches (e.g. "AI" != "Artificial Intelligence").
-- **Embedding Upgrade**: SBERT (Recall@10: ~85%). Captured semantic equivalence.
-- **Fine-Tuning**: Added "Metadata concatenation" (Title + Description + Test Type) to the product vector to improve context.
+- **Evaluation Result**: Recall@10 = 9.23% (Zero-Shot Baseline).
+- **Analysis**: The lower score highlights the "Semantic Gap" between generic job descriptions (e.g., "Java Developer") and SHL's brand-specific product names (e.g., "Automata Fix").
+- **Improvement Path**: Fine-tuning the embeddings on SHL-specific data or using a commercially larger LLM (like GPT-4) for re-ranking would significantly close this gap.
 
 ## 6. Deployment
 - **API**: Dockerized container exposing port 8000.
