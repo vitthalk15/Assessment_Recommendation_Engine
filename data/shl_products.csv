@@ -1,0 +1,21 @@
+Assessment_ID,Assessment_Name,Assessment_Type,Skills_Tested,Description,Difficulty_Level
+SHL_001,Numerical Reasoning Test,Cognitive,"Data Interpretation, Statistics, Algebra",Measures ability to make correct decisions or inferences from numerical or statistical data.,High
+SHL_002,Verbal Reasoning Test,Cognitive,"Reading Comprehension, Logic,Written Communication",Measures ability to evaluate the logic of various kinds of argument as they appear in written form.,Medium
+SHL_003,Logical Reasoning Test,Cognitive,"Pattern Recognition, Abstract Thinking",Measures ability to understand and manipulate abstract or logical concepts.,High
+SHL_004,VCS Coding Assessment,Skill,"Python, Java, C++, Algorithms",Assesses coding proficiency in various languages and algorithmic thinking.,High
+SHL_005,Personality Questionnaire (OPQ),Personality,"Behavioral Traits, Leadership, Teamwork",Assesses behavioral style and preferences in a work context.,Low
+SHL_006,Situational Judgement Test,Behavioral,"Decision Making, Problem Solving, Conflict Resolution",Assesses aptitude for solving problems in work-related situations.,Medium
+SHL_007,Data Analyst Assessment,Skill,"SQL, Excel, Data Visualization",Determines ability to work with and interpret data sets using common tools.,Medium
+SHL_008,Sales Aptitude Test,Skill,"Negotiation, Communication, Persuasion",Evaluates potential for sales success and customer interaction skills.,Medium
+SHL_009,Customer Service Simulation,Simulation,"Empathy, Problem Resolution, Communication",Simulates real-world customer service scenarios to test reactions.,Low
+SHL_010,Mechanical Comprehension,Skill,"Physics, Mechanics, Spatial Reasoning",Measures understanding of basic mechanical principles.,Medium
+SHL_011,Checking Test,Cognitive,"Attention to Detail, Speed, Accuracy",Measures ability to compare information quickly and accurately.,Low
+SHL_012,Strategic Thinking Assessment,Cognitive,"Strategy, Long-term Planning, Analysis",Assesses ability to think strategically and plan for the future.,High
+SHL_013,Management Scenarios,Behavioral,"Leadership, Delegation, Management",Evaluates management style and effectiveness in various scenarios.,High
+SHL_014,Frontend Developer Challenge,Skill,"HTML, CSS, JavaScript, React",Assesses proficiency in frontend web development technologies.,High
+SHL_015,Backend Systems Test,Skill,"Database Design, API, System Architecture",Assesses knowledge of backend systems and architecture.,High
+SHL_016,English Proficiency Test,Language,"Grammar, Vocabulary, Reading",Measures proficiency in the English language for business communication.,Medium
+SHL_017,Excel Proficiency Test,Skill,"Excel Formulas, Pivot Tables, Macros",Assesses advanced knowledge of Microsoft Excel.,Medium
+SHL_018,Project Management Simulation,Simulation,"Planning, Risk Management, Budgeting",Simulates project management tasks and challenges.,High
+SHL_019,Digital Readiness,Personality,"Adaptability, Digital Literacy, Learning Agility",Assesses readiness to specific digital transformations.,Low
+SHL_020,Innovation Potential,Personality,"Creativity, Openness, Idea Generation",Measures potential for innovative thinking and problem solving.,Medium
